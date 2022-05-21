@@ -13,7 +13,8 @@ Neguje stan wybranego bitu przeznaczenia
 Przeznaczenie
 ###################################
 LCALL
-zapisuje na stosie zartosc pc i wykonuje skok do adresu początku procedury
+wykonuje bezwarunkowy skok do procedury oznaczonej etykietą
+Etykieta
 ####################################
 SETB
 Ustawia wybrany bit przeznaczenia
