@@ -1,0 +1,24 @@
+################################# AIOK
+MOV 
+to instrukcja służąca to kopiowania zawartości drugiego argumentu do pierwszego
+Parametry:
+przeznaczenie, źródło
+###############################
+CLR
+Czyści wybrany bit przeznaczenia
+Przeznaczenie
+###################################
+CPL
+Neguje stan wybranego bitu przeznaczenia
+Przeznaczenie
+###################################
+LCALL
+zapisuje na stosie zartosc pc i wykonuje skok do adresu początku procedury
+####################################
+SETB
+Ustawia wybrany bit przeznaczenia
+Przeznaczenie
+###################################
+LJMP
+Wykonuje bezwarunkowy skok do wybranego miejsca w programie, w tym wypadku skok długi
+Miejsce
